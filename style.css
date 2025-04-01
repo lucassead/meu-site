@@ -1,38 +1,111 @@
-body {
-    font-family: Arial, sans-serif;
+/* Reset básico */
+* {
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
 
+/* Corpo da página */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
 header {
-    background-color: #333;
+    background: #333;
     color: white;
-    padding: 15px;
+    padding: 20px;
     text-align: center;
+}
+
+nav {
+    margin-top: 10px;
 }
 
 nav a {
     color: white;
     text-decoration: none;
-    margin: 0 10px;
+    margin: 0 15px;
+    font-weight: bold;
 }
 
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Área principal */
 main {
     width: 80%;
+    max-width: 800px;
     margin: 20px auto;
     padding: 20px;
     background: white;
+    border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Estilo para os artigos */
 article {
     margin-bottom: 20px;
 }
 
+h1, h2 {
+    color: #222;
+}
+
+/* Rodapé */
 footer {
     text-align: center;
     padding: 10px;
     background-color: #333;
     color: white;
+    margin-top: 20px;
+}
+
+/* Estilizando o formulário */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #555;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    main {
+        width: 90%;
+    }
+    
+    nav a {
+        display: block;
+        margin: 5px 0;
+    }
 }
