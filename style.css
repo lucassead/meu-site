@@ -157,3 +157,34 @@ main {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+/* Espaçamento para o conteúdo principal abaixo do cabeçalho fixo */
+main {
+    margin-top: 80px; /* Ajuste o valor conforme necessário */
+    width: 80%;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* Cabeçalho fixo */
+header {
+    background: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 60px;  /* Defina a altura do cabeçalho fixo */
+    line-height: 30px;
+    z-index: 1000;
+}
+
+/* Espaçamento abaixo do cabeçalho */
+main {
+    margin-top: 80px;  /* Deve ser maior que a altura do header fixo */
+}
