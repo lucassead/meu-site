@@ -158,3 +158,29 @@ main {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Estilo dos links de navegação (botões) */
+nav a {
+    display: inline-block;  /* Garante que os botões fiquem alinhados */
+    color: white;  /* Cor do texto */
+    text-decoration: none;  /* Remove o sublinhado */
+    margin: 0 15px;  /* Espaço entre os botões */
+    padding: 10px 20px;  /* Tamanho e espaçamento interno */
+    background: #f4b400;  /* Cor de fundo dos botões */
+    border-radius: 5px;  /* Bordas arredondadas */
+    transition: 0.3s;  /* Transição suave ao passar o mouse */
+}
+
+/* Efeito ao passar o mouse nos botões */
+nav a:hover {
+    background: #d79700;  /* Cor de fundo ao passar o mouse */
+    text-decoration: none;  /* Garante que o sublinhado não apareça no hover */
+}
+
+/* Alternativa de cor para o fundo do menu */
+nav {
+    background-color: #222;  /* Cor de fundo do menu */
+    padding: 15px;
+    text-align: center;
+}
+
+
