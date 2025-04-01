@@ -60,3 +60,13 @@ footer {
     color: white;
     margin-top: 20px;
 }
+nav ul li a {
+  color: black; /* Define a cor do texto */
+  text-decoration: none; /* Remove o sublinhado */
+  font-size: 16px; /* Ajusta o tamanho da fonte */
+  font-weight: bold; /* Deixa o texto em negrito */
+}
+
+nav ul li a:hover {
+  color: #ff6600; /* Cor ao passar o mouse */
+}
