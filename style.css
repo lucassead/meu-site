@@ -147,7 +147,7 @@ header {
 
 /* Adiciona espaçamento para evitar sobreposição */
 main {
-    margin-top: 80px; /* Deve ser maior que a altura do header */
+    margin-top: 50px; /* Deve ser maior que a altura do header */
     width: 80%;
     max-width: 900px;
     margin-left: auto;
